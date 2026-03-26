@@ -6,7 +6,7 @@ SRCDIR = srcs
 INCDIR = incs
 OBJDIR = objs
 
-SRC_FILES = main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp Brain.cpp
+SRC_FILES = main.cpp Animal.cpp Cat.cpp Dog.cpp WrongAnimal.cpp WrongCat.cpp
 OBJS = $(addprefix $(OBJDIR)/, $(SRC_FILES:.cpp=.o))
 
 all:	$(NAME)
